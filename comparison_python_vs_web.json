@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-11-05T18:52:55.592489",
+  "python_results_available": true,
+  "web_results_available": true,
+  "python_summary": {
+    "battCycles": 430.1129338664743,
+    "battCyclesYear": 429.5245440800632,
+    "dataCount": 8784
+  },
+  "web_summary": {
+    "calculation_id": "79cf8168-c31b-4d08-9453-d316a96e7de1",
+    "status": "completed",
+    "results": {
+      "battCycles": 430.1129338664743,
+      "battCyclesYear": 429.5245440800632,
+      "timeString": "Od 31-12-2021 do 31-12-2022 (365 dní):",
+      "dataCount": 8784,
+      "dataRedCount": 8772
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Test kalkulace",
+  "description": "Test popis kalkulace",
+  "input_params": {
+    "Optimalizace": {
+      "optimizationtype": 0
+    },
+    "Baterie": {
+      "b_cap": 3000
+    },
+    "FVE": {
+      "pv_powernom": 7000
+    },
+    "Ceny": {
+      "pricefix": 2.9
+    },
+    "Pmax": {
+      "pmaxodber": 6000
+    }
+  }
+}

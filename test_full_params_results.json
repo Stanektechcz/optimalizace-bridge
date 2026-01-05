@@ -1,0 +1,64 @@
+{
+  "calculation_id": "7656992a-a395-4cb1-8433-89d95f0f0175",
+  "configuration": {
+    "id": "aa3d2b6f-e756-4b6a-85ea-d3313fe8d405",
+    "user_id": "56628776-f476-4ed3-9841-f1acd72cb1b0",
+    "name": "Kompletní test všech parametrů",
+    "description": "Test konfigurace obsahující všechny parametry jako Python GUI",
+    "config_data": {
+      "Optimalizace": {
+        "optimizationtype": 0,
+        "optimization_horizon": 36,
+        "time_resolution": 1,
+        "vnutitrokspotreby": null,
+        "povolitdodavkydositezbaterie": true,
+        "povolitodberzesitedobaterie": true,
+        "povolitprekrocenipmax": true,
+        "vynulovatspotrebnidiagram": false,
+        "pouzitpredikcispotreby": false,
+        "pouzitfixnicenu": false,
+        "simulaceskutecnehoprovozu": false
+      },
+      "Baterie": {
+        "b_cap": 15000,
+        "b_effcharge": 0.95,
+        "b_effdischarge": 0.95,
+        "b_max": 0.95,
+        "b_min": 0.05,
+        "b_speedcharge": 5000,
+        "b_speeddischarge": 5000
+      },
+      "FVE": {
+        "pv_powernom": 10000,
+        "pv_eff": 0.2128,
+        "pmaxfve": 10000,
+        "pv_power1": 0.55,
+        "pv_area1": 2.5844,
+        "pv_tempeffcoef": 0.0005,
+        "pv_tempref": 22,
+        "pv_effconverter": 0.95,
+        "predrandcoef": 0
+      },
+      "Ceny": {
+        "pricefix": 4.5,
+        "feedistribution": 1.5,
+        "feetrader": 0.5
+      },
+      "Pmax": {
+        "pmaxodber": 6000,
+        "pmaxdodavka": 6000
+      }
+    },
+    "is_default": false,
+    "created_at": "2025-11-05T18:44:52",
+    "updated_at": null
+  },
+  "results_count": 5,
+  "sample_results": [
+    333.1920747575342,
+    332.7362716456908,
+    "Od 31-12-2021 do 31-12-2022 (365 dní):",
+    8784,
+    8772
+  ]
+}
